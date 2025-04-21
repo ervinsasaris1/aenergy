@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+import EmailForm from '../components/EmailForm';
 
 function EntryPage() {
     return (
@@ -39,6 +40,9 @@ function EntryPage() {
                         </div>
                     </a>
                 </div>
+            </div>
+            <div className="row">
+                <EmailForm />
             </div>
         </div>
     )

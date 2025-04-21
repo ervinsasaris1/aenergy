@@ -1,0 +1,14 @@
+.service-title {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+@media (max-width: 768px) {
+    .service-title {
+        padding-left: 0;
+    }
+
+    .email-form {
+        padding-top: 0 !important;
+    }
+}
