@@ -44,6 +44,19 @@
 	padding-top: 20px;
 }
 
+.main-title {
+	position: relative;
+	width: 100%;
+	background-image: url("title.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.main-title-content {
+	padding-top: 75px;
+}
 
 @media (max-width: 768px) {
 	.contact-container {
@@ -61,5 +74,14 @@
 	}
 	.nav-item {
 		width: auto;
+	}
+
+	.main-title {
+		height: auto;
+	}
+
+	.main-title-content {
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 }

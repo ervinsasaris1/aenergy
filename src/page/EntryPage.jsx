@@ -4,10 +4,10 @@ import EmailForm from '../components/EmailForm';
 
 function EntryPage() {
     return (
-        <div className="container main-content">
-            <div className="row">
-                <div className="col-12 section">
-                    <h1>Par mums</h1>
+        <>
+            <div className="main-title">
+                <div className="container main-title-content">
+                    <h1>Energoefektivitātes profesionāļi</h1>
                     <p>
                         Esam energoefektivitātes profesionāļi, kas palīdzēs Jums samazināt enerģijas patēriņu un izmaksas.
                         Vairāku gadu pieredze energosertificēšanā un uzņēmumu energoauditā sniedz mums iespēju
@@ -15,36 +15,38 @@ function EntryPage() {
                     </p>
                 </div>
             </div>
-            <div className="row services">
-                <div className="col-sm-12 col-md-4">
-                    <a href="#">
-                        <div className="pt-0">
-                            <img src="buildings.jpg" alt="Ēkas pagaidu energosertifikāts" className="company-logo"/>
-                            <p>Ēkas pagaidu energosertifikāts</p>
-                        </div>
-                    </a>
+            <div className="container main-content">
+                <div className="row services">
+                    <div className="col-sm-12 col-md-4">
+                        <a href="#">
+                            <div className="pt-0">
+                                <img src="buildings.jpg" alt="Ēkas pagaidu energosertifikāts" className="company-logo"/>
+                                <p>Ēkas pagaidu energosertifikāts</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="col-sm-12 col-md-4">
+                        <a href="#">
+                            <div className="pt-0">
+                                <img src="buildings.jpg" alt="Ēkas energosertifikāts" className="company-logo"/>
+                                <p>Ēkas energosertifikāts</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="col-sm-12 col-md-4">
+                        <a href="#">
+                            <div className="pt-0">
+                                <img src="buildings.jpg" alt="Energoefektivitātes konsultācijas" className="company-logo"/>
+                                <p>Energoefektivitātes konsultācijas</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div className="col-sm-12 col-md-4">
-                    <a href="#">
-                        <div className="pt-0">
-                            <img src="buildings.jpg" alt="Ēkas energosertifikāts" className="company-logo"/>
-                            <p>Ēkas energosertifikāts</p>
-                        </div>
-                    </a>
-                </div>
-                <div className="col-sm-12 col-md-4">
-                    <a href="#">
-                        <div className="pt-0">
-                            <img src="buildings.jpg" alt="Energoefektivitātes konsultācijas" className="company-logo"/>
-                            <p>Energoefektivitātes konsultācijas</p>
-                        </div>
-                    </a>
+                <div className="row">
+                    <EmailForm />
                 </div>
             </div>
-            <div className="row">
-                <EmailForm />
-            </div>
-        </div>
+        </>
     )
 }
 
