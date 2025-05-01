@@ -19,6 +19,8 @@ function EmailForm() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        console.log("hello");
     }
 
     return (
